@@ -14,6 +14,7 @@ int main()
         cin >> name;
         cout << "Enter three scores separated by a space: ";
         cin >> score;
+        average = (score + score + score) / 3;
         cout << "Student's average is " << average << endl;
 
     }
