@@ -19,6 +19,10 @@ int main()
         cout << "Do you have another student to enter? (y/n) ";
         cin >> response;
     }
+    cout << "Done writing to file" << endl;
+    cout << "Reading data from file" << endl;
+    cout << "Done reading from file" << endl;
+    cout << "Average from all student averages: " << endl;
     system("pause");
     return 0;
 }
